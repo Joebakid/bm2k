@@ -65,10 +65,11 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.846); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
   /* right: 300px; */
+  transition: all 0.5s ease-in-out;
 }
 
 .hamburger-menu div {
@@ -76,11 +77,12 @@ nav {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   padding: 50px 20px;
   border-radius: 20px;
   background-color: black;
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 1300px) {
