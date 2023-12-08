@@ -8,10 +8,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 100px 0;
 }
 
@@ -30,6 +31,7 @@ body {
 
 nav {
   border-bottom: 1px solid gray;
+  transition: all 0.5s ease-in;
 }
 
 .content-nav {
@@ -42,9 +44,63 @@ nav {
   margin-top: 300px;
 }
 
+.list-item-container {
+  display: none;
+}
+
+.list-item {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.hamburger-menu {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  /* right: 300px; */
+}
+
+.hamburger-menu div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
 @media screen and (min-width: 1300px) {
   .title {
     font-size: 3rem;
     margin: 100px 0;
+  }
+
+  .list-item-container {
+    display: flex;
+
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .list-item:hover {
+    color: black;
+  }
+
+  svg {
+    display: none;
   }
 }
