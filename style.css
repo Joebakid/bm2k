@@ -11,9 +11,13 @@ body {
   position: relative;
 }
 
+header {
+  height: 100vh;
+}
+
 .title {
   font-size: 1.3rem;
-  margin: 70px 0;
+  margin: 40px 0;
 }
 
 .container {
