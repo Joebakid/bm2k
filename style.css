@@ -123,6 +123,10 @@ nav {
   gap: 10px;
 }
 
+ul {
+  padding: 20px;
+}
+
 @media screen and (min-width: 1300px) {
   .title {
     font-size: 3rem;
