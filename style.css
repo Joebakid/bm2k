@@ -13,7 +13,7 @@ body {
 
 .title {
   font-size: 1.3rem;
-  margin: 100px 0;
+  margin: 70px 0;
 }
 
 .container {
@@ -46,6 +46,7 @@ nav {
 
 .list-item-container {
   display: none;
+  align-items: center;
 }
 
 .list-item {
@@ -85,10 +86,39 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.btn-buy-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  gap: 10px;
+  /* padding: 20px; */
+}
+
+.btn-buy {
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-buy:hover {
+  background-color: rgb(84, 84, 142);
+}
+
 @media screen and (min-width: 1300px) {
   .title {
     font-size: 3rem;
     margin: 100px 0;
+  }
+
+  .container {
+    width: 60%;
   }
 
   .list-item-container {
