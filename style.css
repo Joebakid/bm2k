@@ -366,4 +366,8 @@ body {
   #panel2-title {
     font-size: 10px;
   }
+
+  .accordion p {
+    font-size: 10px;
+  }
 }
