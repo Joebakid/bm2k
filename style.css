@@ -362,7 +362,8 @@ body {
 
   /* ACCORDION */
   #panel1-title,
-  #panel3-title {
-    font-size: 1rem;
+  #panel3-title,
+  #panel2-title {
+    font-size: 10px;
   }
 }
