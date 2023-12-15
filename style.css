@@ -55,6 +55,8 @@ header {
   display: flex;
   align-items: center;
   gap: 50px;
+  font-size: 10px;
+  margin: 0 10px;
 }
 
 .list-items {
@@ -65,6 +67,11 @@ header {
 
 .list-items:hover {
   color: #4b56ad;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
 }
 
 /*  */
@@ -192,7 +199,7 @@ header {
   /* text-align: center; */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .list {
     display: none;
   }
@@ -212,11 +219,12 @@ header {
   }
 
   .header-img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
   }
 
   .header-btn-section {
-    margin: 50px 0;
+    margin: 100px 0;
   }
 
   .container {
@@ -229,5 +237,13 @@ header {
   .section-three-img {
     width: 30px;
     height: 30px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .img-ecosystem p {
+    font-size: 8px;
   }
 }
