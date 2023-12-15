@@ -40,9 +40,61 @@ header {
 }
 /*  ////////////////*/
 
-/* NAV */
+/*  */
+
+nav {
+  background-color: #333;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ffcc00;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
 
 .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* NAV */
+
+/* .logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -61,12 +113,12 @@ header {
   gap: 50px;
   font-size: 10px;
   margin: 0 10px;
-}
+} */
 
-.list-items {
+/* .list-items {
   cursor: pointer;
   transition: all 0.5s ease-in;
-  /* padding: 2px; */
+  
 }
 
 .list-items:hover {
@@ -85,7 +137,7 @@ header {
 .social-icon {
   width: 30px;
   height: 30px;
-}
+} */
 
 /*  */
 
@@ -97,6 +149,7 @@ header {
 
 .header-img {
   padding: 20px 0;
+  border-radius: 40px;
 }
 
 .header-btn-section {
@@ -392,5 +445,24 @@ body {
 
   .accordion p {
     font-size: 10px;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    text-align: center;
+  }
+
+  .navbar-links.show {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
   }
 }
