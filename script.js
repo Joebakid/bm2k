@@ -43,3 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // GSAP
+
+const tl = gsap.timeline({
+  defaults: { duration: 0.75, ease: "power3.easeOut" },
+});
+
+tl.fromTo(".intro-title", { opacity: 0 }, { opacity: 1, duration: 5 });
