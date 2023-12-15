@@ -12,22 +12,33 @@
       <ul class="list-container container">
         <li><img class="logo" src="img/logo.jpg" alt="" /></li>
         <div class="list">
-          <li class="list-items">Home</li>
-          <li class="list-items">About us</li>
-          <li class="list-items">Roadmap</li>
-          <li class="list-items">WhitePaper</li>
-          <li class="list-items">Much news</li>
           <li class="list-items">
-            <img class="social-icon" src="img/x logo.jpeg" alt="" />
+            <a href=""> Home</a>
+          </li>
+          <li class="list-items"><a target="_blank" href=""> About us</a></li>
+          <li class="list-items"><a target="_blank" href="">Roadmap</a></li>
+          <li class="list-items"><a target="_blank" href="">Whitepaper</a></li>
+          <li class="list-items"><a target="_blank" href="">Much news</a></li>
+          <li class="list-items">
+            <a target="_blank" href="">
+              <img class="social-icon" src="img/x logo.jpeg" alt=""
+            /></a>
           </li>
           <li class="list-items">
-            <img
-              class="social-icon"
-              src="img/telegram-svgrepo-com.png"
-              alt=""
-            />
+            <a target="_blank" href="">
+              <img
+                class="social-icon"
+                src="img/telegram-svgrepo-com.png"
+                alt=""
+            /></a>
           </li>
         </div>
+
+        <img
+          class="hamburger"
+          src="img/hamburger-menu-svgrepo-com.svg"
+          alt=""
+        />
       </ul>
     </nav>
 
@@ -211,9 +222,90 @@
       </div>
     </section>
 
-    <section>
+    <hr />
+
+    <section class="bgc-four">
       <div class="container">
         <h2 class="section-title">FREQUENTLY ASKED QUESTIONS (FAQ)</h2>
+
+        <div class="wrapper">
+          <div class="accordion">
+            <div class="accordion-panel">
+              <h2 id="panel1-title">
+                <button
+                  class="accordion-trigger"
+                  aria-expanded="true"
+                  aria-controls="accordion1-content"
+                >
+                  What inspired the creation of BM2K?
+                </button>
+              </h2>
+              <div
+                class="accordion-content"
+                role="region"
+                aria-labelledby="panel1-title"
+                aria-hidden="false"
+                id="panel1-content"
+              >
+                <div>
+                  <p>
+                    BM2K was inspired by a heartfelt interaction with Billy
+                    Markus, the creator of Dogecoin. The token serves as a
+                    unique and genuine tribute to express appreciation for his
+                    contributions to the crypto community.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-panel">
+              <h2 id="panel2-title">
+                <button
+                  class="accordion-trigger"
+                  aria-expanded="false"
+                  aria-controls="accordion1-content"
+                >
+                  Why is the maximum supply of BM2K set at 42,000,000 tokens?
+                </button>
+              </h2>
+              <div
+                class="accordion-content"
+                role="region"
+                aria-labelledby="panel2-title"
+                aria-hidden="true"
+                id="panel2-content"
+              >
+                <div>
+                  <p>I.D.K.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-panel">
+              <h2 id="panel3-title">
+                <button
+                  class="accordion-trigger"
+                  aria-expanded="false"
+                  aria-controls="accordion1-content"
+                >
+                  What will the price of BM2K be in the future?
+                </button>
+              </h2>
+              <div
+                class="accordion-content"
+                role="region"
+                aria-labelledby="panel1-title"
+                aria-hidden="true"
+                class="accordion-content"
+                id="panel3-content"
+              >
+                <div>
+                  <p>¯\(ツ)/¯</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
