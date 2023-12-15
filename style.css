@@ -131,6 +131,7 @@ header {
   display: flex;
   gap: 20px;
   align-items: center;
+  width: 100%;
 }
 
 .section-two-text {
@@ -178,7 +179,7 @@ header {
 /*  */
 
 .section-three-content {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   line-height: 1.7;
