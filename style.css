@@ -178,6 +178,7 @@ nav {
 
 .header-section {
   /* margin: 100px 0; */
+  /* z-index: 1; */
 }
 
 .section-two-content {
@@ -194,6 +195,7 @@ nav {
 
 .bgc {
   background-color: bisque;
+
   padding: 40px;
 }
 

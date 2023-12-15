@@ -41,3 +41,5 @@ document.addEventListener("DOMContentLoaded", function () {
     navbarLinks.classList.toggle("show");
   });
 });
+
+// GSAP
