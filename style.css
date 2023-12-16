@@ -340,6 +340,7 @@ body {
   border: 0;
   font: inherit;
   color: inherit;
+  text-align: left;
 }
 
 .accordion-trigger::before,
