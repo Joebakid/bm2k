@@ -497,4 +497,10 @@ body {
   .img-ecosystem {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .address-link {
+    width: 10px;
+    font-size: 12px;
+    display: flex;
+  }
 }
