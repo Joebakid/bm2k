@@ -49,4 +49,4 @@ const tl = gsap.timeline({
 });
 
 tl.fromTo(".intro-title", { opacity: 0 }, { opacity: 1, duration: 5 });
-tl.fromTo(".wrapper", { opacity: 0 }, { opacity: 1, duration: 1 });
+// tl.fromTo(".wrapper", { opacity: 0 }, { opacity: 1, duration: 1 });
